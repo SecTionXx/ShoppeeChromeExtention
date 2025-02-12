@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Shopee Product Extractor",
+  "version": "1.2",
+  "description": "Extract product details from Shopee listings with slower scrolling and partial class matching.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://shopee.co.th/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
